@@ -1,0 +1,79 @@
+# Build output
+build/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Testing
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-error.log*
+
+# VS Code
+.vscode/*
+!.vscode/snippets
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Misc
+.firebase/*
+__generated__
+.DS_Store
+.eslintcache
+.yarn-integrity
+backup.sql
+VERSION
+
+#Certificates
+.cert
+
+# Vite
+!**/glob-import/dir/node_modules
+.DS_Store
+.idea
+*.cpuprofile
+*.local
+*.log
+/.vscode/
+/docs/.vitepress/cache
+/packages/vite/LICENSE
+dist
+dist/
+dist-ssr
+explorations
+node_modules
+playground-temp
+temp
+TODOs.md
+.eslintcache
+
+# Firebase
+.firebaseEmulators
+
+# Environment Variables
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+
+.next/
+
+public/*.xml
+
+# Storybook
+storybook-static
+.vercel
+
+#js docs
+docs/
+
+public/robots.txt
+
+bash.exe.stackdump
